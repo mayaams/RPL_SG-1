@@ -1,0 +1,20 @@
+{
+    "env": {
+        "browser": true,
+        "es6": true,
+        "node": true
+    },
+     "parserOptions": {
+         "parser": "babel-eslint"
+     },
+    "extends": [
+        "airbnb-base",
+        "plugin:vue/recommended"
+    ],
+    "rules": {
+        "no-console": 0,
+        "no-param-reassign": 0,
+        "guard-for-in": 0,
+        "vue/no-template-shadow": 0
+    }
+}
